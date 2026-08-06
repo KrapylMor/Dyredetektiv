@@ -1,0 +1,10 @@
+Reporting-MTA: dns;smtp.etrack1.com
+X-PowerMTA-VirtualMTA: outbound_horn_proxy
+Arrival-Date: Thu, 1 May 2025 10:02:10 +0200
+
+Final-Recipient: rfc822;og@hornbordplader.dk
+Action: failed
+Status: 5.4.1 (no answer from host)
+Remote-MTA: dns;hornbordplader-dk.mail.protection.outlook.com (52.101.73.21)
+Diagnostic-Code: smtp;550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [AM2PEPF0001C70F.eurprd05.prod.outlook.com 2025-05-01T08:02:10.650Z 08DD86FBAAB003F1]
+X-PowerMTA-BounceCategory: bad-mailbox

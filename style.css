@@ -89,3 +89,12 @@ p{line-height:1.45;margin:7px 0}
  .shell{padding:9px 9px 26px}.body{padding:14px}.hero{min-height:185px}.emoji{font-size:62px}
  .answer,.cta{font-size:16px}.brand{font-size:14px}
 }
+
+/* V2 game styling */
+.hero{background:radial-gradient(circle at 50% 28%,rgba(255,255,255,.65),transparent 35%),linear-gradient(135deg,var(--accent),var(--accent2))}
+.mission-icon{animation:floaty 2.6s ease-in-out infinite}
+@keyframes floaty{50%{transform:translateY(-7px) rotate(-1deg)}}
+.feedback{animation:pop .28s ease-out}
+@keyframes pop{from{transform:scale(.96);opacity:0}to{transform:scale(1);opacity:1}}
+.route{display:flex;align-items:center;justify-content:center;gap:10px;font-weight:950;margin-top:8px}
+.route span{font-size:28px}
