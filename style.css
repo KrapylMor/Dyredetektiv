@@ -98,3 +98,23 @@ p{line-height:1.45;margin:7px 0}
 @keyframes pop{from{transform:scale(.96);opacity:0}to{transform:scale(1);opacity:1}}
 .route{display:flex;align-items:center;justify-content:center;gap:10px;font-weight:950;margin-top:8px}
 .route span{font-size:28px}
+
+
+/* Startside i plakatstil */
+.start-page{min-height:100vh;padding:0;display:grid;place-items:center;background:#153b4c}
+.start-poster{position:relative;width:min(100vw,620px);min-height:100vh;aspect-ratio:9/16;overflow:hidden;background:#f7edda;box-shadow:0 0 50px rgba(0,0,0,.35)}
+.start-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.start-panel{position:absolute;z-index:2;left:10.5%;right:10.5%;top:27%;padding:18px 18px 16px;border:3px solid #243126;border-radius:20px;background:rgba(255,250,232,.92);box-shadow:6px 7px 0 rgba(36,49,38,.85);backdrop-filter:blur(2px)}
+.start-kicker{text-align:center;font-weight:1000;text-transform:uppercase;font-size:clamp(20px,5.5vw,30px);color:#315b28;margin-bottom:8px}
+.start-panel p{text-align:center;font-size:clamp(15px,3.7vw,20px);margin:5px 0 13px}
+.start-facts{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.start-facts>div{display:flex;align-items:center;gap:8px;padding:10px;border:2px solid #243126;border-radius:13px;background:#fff;font-size:clamp(12px,3vw,16px);line-height:1.15;box-shadow:3px 3px 0 rgba(36,49,38,.28)}
+.start-facts span{font-size:23px;flex:0 0 auto}
+.start-progress{margin-top:13px;font-weight:900;font-size:13px}
+.start-progress>span{display:block;margin-bottom:5px;text-align:center}
+.start-progress>div{height:13px;border:2px solid #243126;border-radius:99px;background:#e7ddc4;overflow:hidden}
+.start-progress i{display:block;height:100%;background:linear-gradient(90deg,#69b95b,#f5c43c)}
+.start-next{margin-top:13px;display:flex;align-items:center;gap:10px;padding:11px 12px;border:3px dashed #d24b3f;border-radius:15px;background:#fff4c8;font-size:clamp(13px,3.2vw,17px);line-height:1.25}
+.start-pin{font-size:30px;flex:0 0 auto}
+@media(max-width:390px){.start-panel{top:26%;left:8.5%;right:8.5%;padding:13px 12px}.start-facts{gap:6px}.start-facts>div{padding:8px 7px}.start-next{padding:9px}}
+@media(max-height:720px) and (orientation:portrait){.start-poster{min-height:760px}.start-page{align-items:start}.start-panel{top:25%}}

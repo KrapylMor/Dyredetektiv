@@ -30,17 +30,28 @@ function progressBlock(){
  <div class="mission-grid">${missions.map(m=>`<div class="mission-dot ${d.includes(m.id)?'done':''}">${d.includes(m.id)?'✓':m.id}</div>`).join('')}</div></div>`;
 }
 function renderStart(){
- shell(`<section class="game">
-  <div class="hero"><div><div class="emoji">🕵️🐾</div><h1>Mission: Dyredetektiv</h1><div class="subtitle">Skattejagt på Aulum Dyrskue</div></div></div>
-  <div class="body">${progressBlock()}
-   <div class="card"><div class="kicker">Velkommen, Dyredetektiv</div>
-    <p>I dag er det dig, der skal afsløre dyrenes hemmeligheder.</p>
-    <p><b>Find 12 QR-koder, løs missionerne, saml bogstaverne og knæk kodeordet.</b></p>
-   </div>
-   <div class="card clue"><div class="kicker">🎯 Første mission</div>
-    <p>Find <b>Børnedyrskuet</b>. Scan QR-koden til Mission 1, når du står der.</p>
-   </div>
-  </div></section>`);
+ setTheme(null);
+ const done=completed().length;
+ app.innerHTML=`<main class="start-page">
+   <section class="start-poster" aria-label="Dyredetektiv – skattejagt på Aulum Dyrskue">
+     <img class="start-art" src="/startside-dyredetektiv.png" alt="Dyredetektiv på Aulum Dyrskue med dyr og detektivbørn">
+     <div class="start-panel">
+       <div class="start-kicker">Velkommen, Dyredetektiv</div>
+       <p>Rundt på dyrskuepladsen gemmer der sig <b>12 missioner</b>.</p>
+       <div class="start-facts">
+         <div><span>🔎</span><b>Find QR-koderne</b></div>
+         <div><span>🤫</span><b>Afslør dyrenes hemmeligheder</b></div>
+         <div><span>🔤</span><b>Saml 12 bogstaver</b></div>
+         <div><span>🧩</span><b>Knæk kodeordet</b></div>
+       </div>
+       <div class="start-progress"><span>${done}/12 missioner fundet</span><div><i style="width:${Math.round(done/12*100)}%"></i></div></div>
+       <div class="start-next">
+         <span class="start-pin">📍</span>
+         <div><b>Sådan begynder du</b><br>Find Børnedyrskuet og scan QR-koden til Mission 1.</div>
+       </div>
+     </div>
+   </section>
+ </main>`;
 }
 function setTheme(m){document.documentElement.style.setProperty('--accent',m?.accent||'#4dabf7');document.documentElement.style.setProperty('--accent2',m?.accent2||'#ffd43b')}
 function renderMission(id){
