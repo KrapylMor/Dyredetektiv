@@ -41,16 +41,17 @@ function renderStart(){
  app.innerHTML=`<main class="start-page">
    <div class="start-status"><div class="progress-sign"><span class="paw-icon" aria-hidden="true"></span><span>${done} / 12</span></div></div>
    <section class="start-poster" aria-label="Dyredetektiv – skattejagt på Aulum Dyrskue">
-     <img class="start-art" src="/startside-dyredetektiv.png" alt="Dyredetektiv på Aulum Dyrskue med dyr og detektivbørn">
+     <img class="start-art" src="/background-start.png" alt="Aulum Dyrskue baggrund">
      <div class="start-overlay">
-       <div class="treasure-map-panel">
-         <div class="panel-heading">VELKOMMEN DYREDETEKTIV</div>
-         <div class="panel-body">
-           <div class="list-item"><span class="icon icon-search" aria-hidden="true"></span><p>Find den første QR-kode ved Børnedyrskuet.</p></div>
-           <div class="list-item"><span class="icon icon-qr" aria-hidden="true"></span><p>Scan QR-koden med din telefon.</p></div>
-           <div class="list-item"><span class="icon icon-puzzle" aria-hidden="true"></span><p>Løs missionerne én efter én.</p></div>
-           <div class="list-item"><span class="icon icon-letter" aria-hidden="true"></span><p>Saml alle bogstaverne.</p></div>
-           <div class="list-item"><span class="icon icon-chest" aria-hidden="true"></span><p>Knæk kodeordet og bliv en ægte Dyredetektiv.</p></div>
+       <div class="treasure-map">
+         <img class="treasure-map-img" src="/treasure-map.png" alt="Skattekort">
+         <div class="treasure-map-copy">
+           <h1>VELKOMMEN<br>DYREDETEKTIV</h1>
+           <div class="map-step"><span class="icon icon-search" aria-hidden="true"></span><p>Find den første QR-kode ved Børnedyrskuet.</p></div>
+           <div class="map-step"><span class="icon icon-qr" aria-hidden="true"></span><p>Scan QR-koden med din telefon.</p></div>
+           <div class="map-step"><span class="icon icon-puzzle" aria-hidden="true"></span><p>Løs missionerne én efter én.</p></div>
+           <div class="map-step"><span class="icon icon-letter" aria-hidden="true"></span><p>Saml alle bogstaverne.</p></div>
+           <div class="map-step"><span class="icon icon-chest" aria-hidden="true"></span><p>Knæk kodeordet og bliv en ægte Dyredetektiv.</p></div>
          </div>
        </div>
      </div>
