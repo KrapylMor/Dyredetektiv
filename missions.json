@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "slug": "boernedyrskuet",
+    "title": "Børnedyrskuet",
+    "emoji": "🐾",
+    "speaker": "Dyrenes hemmelighed",
+    "secret": "Dyr kan ofte mærke, om mennesker er rolige eller urolige. Når du er rolig og venlig, bliver dyret ofte også mere trygt.",
+    "question": "Hvad er det vigtigste ved et børnedyrskue?",
+    "answers": [
+      "At dyret er størst",
+      "At barnet passer godt på sit dyr",
+      "At dyret kan lave tricks"
+    ],
+    "correct": 1,
+    "letter": "A",
+    "explanation": "Et børnedyrskue handler om at vise, at man passer godt på sit dyr og behandler det med omsorg.",
+    "clue": "Find de mindste heste på dyrskuet.",
+    "accent": "#ff6b6b",
+    "accent2": "#ffd166"
+  },
+  {
+    "id": 2,
+    "slug": "ponyer",
+    "title": "Ponyer",
+    "emoji": "🐴",
+    "speaker": "Pia Ponys hemmelighed",
+    "secret": "Jeg kan blive over 30 år gammel. Det er ældre end mange hunde og katte.",
+    "question": "Hvornår kalder man en hest for en pony?",
+    "answers": [
+      "Når den er under ca. 148 cm høj",
+      "Når den er under 1 år",
+      "Når den har kort hale"
+    ],
+    "correct": 0,
+    "letter": "U",
+    "explanation": "En pony er ikke en hesteunge. Det er en mindre type hest.",
+    "clue": "Find ponyernes større fætre.",
+    "accent": "#4dabf7",
+    "accent2": "#ffd43b"
+  },
+  {
+    "id": 3,
+    "slug": "store-heste",
+    "title": "Store heste",
+    "emoji": "🐎",
+    "speaker": "Holger Hests hemmelighed",
+    "secret": "Jeg kan faktisk ikke kaste op. Derfor skal mennesker passe ekstra godt på, hvad jeg spiser.",
+    "question": "Hvad hedder en hesteunge?",
+    "answers": [
+      "Kalv",
+      "Kid",
+      "Føl"
+    ],
+    "correct": 2,
+    "letter": "L",
+    "explanation": "Et føl kan ofte stå på benene kort tid efter, det er født.",
+    "clue": "Find dyrene, der fylder mælken i dit køleskab.",
+    "accent": "#845ef7",
+    "accent2": "#ff922b"
+  },
+  {
+    "id": 4,
+    "slug": "malkekvaeg",
+    "title": "Malkekvæg",
+    "emoji": "🐄",
+    "speaker": "Karla Kos hemmelighed",
+    "secret": "Jeg har bedste venner. Når jeg selv må vælge, går jeg helst sammen med dem.",
+    "question": "Hvor mange maver siger man normalt, at en ko har?",
+    "answers": [
+      "1",
+      "2",
+      "4"
+    ],
+    "correct": 2,
+    "letter": "U",
+    "explanation": "Koens mave består af fire afsnit, som hjælper den med at fordøje græs.",
+    "clue": "Find mine fætre, som ikke bliver malket.",
+    "accent": "#20c997",
+    "accent2": "#74c0fc"
+  },
+  {
+    "id": 5,
+    "slug": "koedkvaeg",
+    "title": "Kødkvæg",
+    "emoji": "🐂",
+    "speaker": "Kurt Kos hemmelighed",
+    "secret": "Jeg kan se næsten hele vejen rundt om mig selv uden at dreje hovedet.",
+    "question": "Hvad spiser køer mest?",
+    "answers": [
+      "Fisk",
+      "Kød",
+      "Græs"
+    ],
+    "correct": 2,
+    "letter": "M",
+    "explanation": "Køer er planteædere og lever især af græs og andet grovfoder.",
+    "clue": "Find dyrene med de lange ører.",
+    "accent": "#f59f00",
+    "accent2": "#8ce99a"
+  },
+  {
+    "id": 6,
+    "slug": "kaniner",
+    "title": "Kaniner",
+    "emoji": "🐇",
+    "speaker": "Karla Kanins hemmelighed",
+    "secret": "Tro det eller ej: Jeg kan faktisk ikke prutte.",
+    "question": "Hvad vokser hele livet på en kanin?",
+    "answers": [
+      "Halen",
+      "Ørerne",
+      "Tænderne"
+    ],
+    "correct": 2,
+    "letter": "D",
+    "explanation": "Kaniner skal tygge meget hø og andet fiberrigt foder, så tænderne slides naturligt.",
+    "clue": "Find dem, der siger mæh, og deres nysgerrige naboer.",
+    "accent": "#ff8787",
+    "accent2": "#ffa94d"
+  },
+  {
+    "id": 7,
+    "slug": "faar-og-geder",
+    "title": "Får og geder",
+    "emoji": "🐑",
+    "speaker": "Freja Fårs hemmelighed",
+    "secret": "Nogle får kan have fire eller seks horn. Geder kan bruge forskellige lyde til at advare flokken.",
+    "question": "Hvad bruger vi oftest fårets uld til?",
+    "answers": [
+      "Mursten",
+      "Plastik",
+      "Tøj"
+    ],
+    "correct": 2,
+    "letter": "Y",
+    "explanation": "Uld kan blandt andet bruges til trøjer, tæpper, sokker og filt.",
+    "clue": "Find dyret, som mange tror er stædigt.",
+    "accent": "#94d82d",
+    "accent2": "#ffe066"
+  },
+  {
+    "id": 8,
+    "slug": "aesler",
+    "title": "Æsler",
+    "emoji": "🫏",
+    "speaker": "Aske Æsels hemmelighed",
+    "secret": "Jeg er ikke bare stædig. Hvis jeg bliver usikker, stopper jeg ofte op og vurderer situationen.",
+    "question": "Hvad er et æsel tættest beslægtet med?",
+    "answers": [
+      "En ko",
+      "En hest",
+      "Et får"
+    ],
+    "correct": 1,
+    "letter": "R",
+    "explanation": "Æsler og heste hører til den samme dyrefamilie.",
+    "clue": "Find dyrene med fjer i stedet for pels.",
+    "accent": "#9775fa",
+    "accent2": "#66d9e8"
+  },
+  {
+    "id": 9,
+    "slug": "fjerkrae",
+    "title": "Fjerkræ",
+    "emoji": "🐔",
+    "speaker": "Hanne Hønes hemmelighed",
+    "secret": "Når jeg sover, kan jeg drømme ligesom mennesker.",
+    "question": "Hvem lægger de fleste af de æg, vi spiser?",
+    "answers": [
+      "Hanen",
+      "Hønen",
+      "Kyllingen"
+    ],
+    "correct": 1,
+    "letter": "S",
+    "explanation": "Det er hønen, der lægger æg. Hanen kan befrugte dem, men lægger dem ikke.",
+    "clue": "Find den mindste ring på dyrskuet.",
+    "accent": "#ff6b6b",
+    "accent2": "#ffd43b"
+  },
+  {
+    "id": 10,
+    "slug": "lille-ring",
+    "title": "Lille Ring",
+    "emoji": "🎪",
+    "speaker": "Sofie Udstillers hemmelighed",
+    "secret": "Når jeg går i ringen med mit dyr, handler det ikke kun om at vinde. Vi skal vise, at vi arbejder godt sammen.",
+    "question": "Hvem viser dyrene frem i Lille Ring?",
+    "answers": [
+      "Publikum",
+      "Dommeren",
+      "Udstilleren"
+    ],
+    "correct": 2,
+    "letter": "K",
+    "explanation": "Udstilleren fører dyret, mens dommeren vurderer det.",
+    "clue": "Find stedet, hvor der bliver handlet, snakket og måske smagt på noget lækkert.",
+    "accent": "#15aabf",
+    "accent2": "#e599f7"
+  },
+  {
+    "id": 11,
+    "slug": "kraemmermarked",
+    "title": "Kræmmermarked",
+    "emoji": "🛍️",
+    "speaker": "Kristian Kræmmers hemmelighed",
+    "secret": "Ordet kræmmer er flere hundrede år gammelt og betyder en person, der sælger varer.",
+    "question": "Hvad kan man typisk købe på et kræmmermarked?",
+    "answers": [
+      "Kun dyr",
+      "Kun mad",
+      "Mange forskellige varer"
+    ],
+    "correct": 2,
+    "letter": "U",
+    "explanation": "Et kræmmermarked kan have alt fra mad og legetøj til tøj, pynt og brugte ting.",
+    "clue": "Find dyrskuets største ring, hvor både dyr og udstillere viser sig frem.",
+    "accent": "#fd7e14",
+    "accent2": "#74c0fc"
+  },
+  {
+    "id": 12,
+    "slug": "store-ring",
+    "title": "Store Ring",
+    "emoji": "🏆",
+    "speaker": "Dommer Daniels hemmelighed",
+    "secret": "Når jeg dømmer dyr, kigger jeg ikke kun på, hvordan de ser ud. Jeg ser også på bevægelse og fremvisning.",
+    "question": "Du har samlet 12 bogstaver. Hvad er det hemmelige kodeord?",
+    "answers": [],
+    "correct": null,
+    "letter": "E",
+    "explanation": "Du har gennemført hele skattejagten.",
+    "clue": "",
+    "accent": "#f03e3e",
+    "accent2": "#ffd43b"
+  }
+]

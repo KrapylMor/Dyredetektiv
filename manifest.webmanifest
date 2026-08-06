@@ -1,0 +1,16 @@
+{
+  "name": "Dyredetektiv – Aulum Dyrskue",
+  "short_name": "Dyredetektiv",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7edda",
+  "theme_color": "#14394d",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
