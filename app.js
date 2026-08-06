@@ -54,9 +54,26 @@ function renderStart(){
  </main>`;
 }
 function setTheme(m){document.documentElement.style.setProperty('--accent',m?.accent||'#4dabf7');document.documentElement.style.setProperty('--accent2',m?.accent2||'#ffd43b')}
+function renderLockedMission(id){
+ const previous=id-1;
+ setTheme(null);
+ shell(`<section class="game">
+   <div class="hero"><div><div class="mission-icon">🔒</div><h1>Mission ${id} er låst</h1><div class="subtitle">Følg sporene i den rigtige rækkefølge</div></div></div>
+   <div class="body">${progressBlock()}
+    <div class="card error">
+      <div class="kicker">Du er kommet for langt frem</div>
+      <p>Du skal først gennemføre <b>Mission ${previous}</b>.</p>
+      <p>Gå tilbage til den seneste ledetråd, find den rigtige post og scan QR-koden dér.</p>
+    </div>
+   </div>
+  </section>`,`LÅST`);
+}
+
 function renderMission(id){
- const m=missions.find(x=>x.id===id);setTheme(m);
+ const m=missions.find(x=>x.id===id);
  if(!m){renderStart();return}
+ if(id>1 && !completed().includes(id-1)){renderLockedMission(id);return}
+ setTheme(m);
  const answers=m.id<12?`<div class="answers">${m.answers.map((a,i)=>`<button class="answer" data-index="${i}">${esc(a)}</button>`).join('')}</div>`:
  `<input id="code" class="code" placeholder="Skriv kodeordet" autocomplete="off"><button class="cta" id="checkCode">Tjek kodeord</button>`;
  shell(`<section class="game">
