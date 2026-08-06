@@ -19,7 +19,7 @@ function burst(){
 }
 function shell(content,badge=''){
  app.innerHTML=`<main class="shell">
-  <div class="status"><div class="pill progress-pill">${esc(badge)}</div></div>
+  <div class="status">${badge?`<div class="progress-sign"><span class="paw-icon" aria-hidden="true"></span><span>${esc(badge)}</span></div>`:''}</div>
   ${content}<div class="footer">Aulum Dyrskue · Dyredetektiv</div></main>`;
 }
 function progressBlock(){
@@ -39,22 +39,21 @@ function renderStart(){
  setTheme(null);
  const done=completed().length;
  app.innerHTML=`<main class="start-page">
-   <div class="start-status"><div class="pill progress-pill">🐾 ${done} / 12</div></div>
+   <div class="start-status"><div class="progress-sign"><span class="paw-icon" aria-hidden="true"></span><span>${done} / 12</span></div></div>
    <section class="start-poster" aria-label="Dyredetektiv – skattejagt på Aulum Dyrskue">
      <img class="start-art" src="/startside-dyredetektiv.png" alt="Dyredetektiv på Aulum Dyrskue med dyr og detektivbørn">
      <div class="start-overlay">
-       <div class="start-copy">
-         <h1>VELKOMMEN DYREDETEKTIV</h1>
-         <div class="start-list">
-           <div><span>🔎</span><p>Find den første QR-kode ved Børnedyrskuet.</p></div>
-           <div><span>📱</span><p>Scan QR-koden med din telefon.</p></div>
-           <div><span>🧩</span><p>Løs missionerne én efter én.</p></div>
-           <div><span>🔤</span><p>Saml alle bogstaverne.</p></div>
-           <div><span>🏆</span><p>Knæk kodeordet og bliv en ægte Dyredetektiv.</p></div>
+       <div class="treasure-map-panel">
+         <div class="panel-heading">VELKOMMEN DYREDETEKTIV</div>
+         <div class="panel-body">
+           <div class="list-item"><span class="icon icon-search" aria-hidden="true"></span><p>Find den første QR-kode ved Børnedyrskuet.</p></div>
+           <div class="list-item"><span class="icon icon-qr" aria-hidden="true"></span><p>Scan QR-koden med din telefon.</p></div>
+           <div class="list-item"><span class="icon icon-puzzle" aria-hidden="true"></span><p>Løs missionerne én efter én.</p></div>
+           <div class="list-item"><span class="icon icon-letter" aria-hidden="true"></span><p>Saml alle bogstaverne.</p></div>
+           <div class="list-item"><span class="icon icon-chest" aria-hidden="true"></span><p>Knæk kodeordet og bliv en ægte Dyredetektiv.</p></div>
          </div>
        </div>
      </div>
-     <div class="start-bottom">Find den første QR-kode ved Børnedyrskuet.</div>
    </section>
  </main>`;
 }
