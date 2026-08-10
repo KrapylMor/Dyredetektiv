@@ -41,10 +41,10 @@ function renderStart(){
  app.innerHTML=`<main class="start-page">
    <div class="start-status"><div class="progress-sign"><span class="paw-icon" aria-hidden="true"></span><span>${done} / 12</span></div></div>
    <section class="start-poster" aria-label="Dyredetektiv – skattejagt på Aulum Dyrskue">
-     <img class="start-art" src="/assets/backgrounds/background-start.png" alt="Aulum Dyrskue baggrund">
+     <img class="start-art" src="/assets/background-start.png" alt="Aulum Dyrskue baggrund">
      <div class="start-overlay">
        <div class="treasure-map">
-         <img class="treasure-map-img" src="/assets/ui/treasure-map.png" alt="Skattekort">
+         <img class="treasure-map-img" src="/assets/treasure-map.png" alt="Skattekort">
          <div class="treasure-map-copy">
            <h1>VELKOMMEN<br>DYREDETEKTIV</h1>
            <div class="map-step"><span class="icon icon-search" aria-hidden="true"></span><p>Find den første QR-kode ved Børnedyrskuet.</p></div>
