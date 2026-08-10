@@ -1,0 +1,15 @@
+[33mcommit a7edca88f5f199d39b742d6b1498048cec03fe08[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jeanne Groth-Pinnerup <j_asmussen84@hotmail.com>
+Date:   Mon Aug 10 09:35:48 2026 +0200
+
+    Opdateret UI for Dyredetektiv
+
+app.js
+assets/background-start.png
+assets/icons/icon-letter-a.png
+assets/icons/icon-magnifier.png
+assets/icons/icon-puzzle.png
+assets/icons/icon-qr-phone.png
+assets/icons/icon-treasure.png
+assets/treasure-map.png
+style.css

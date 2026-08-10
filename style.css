@@ -100,11 +100,11 @@ p{line-height:1.45;margin:7px 0}
 .page-status .brand{pointer-events:auto}
 .page-status .progress-pill{pointer-events:auto}
 
-.start-page{min-height:100vh;padding:0;position:relative;overflow:hidden}
+.start-page{height:100dvh;padding:0;position:relative;overflow:hidden}
 .start-status{position:absolute;top:18px;right:18px;z-index:4}
-.start-poster{position:relative;width:100vw;height:100vh;overflow:hidden}
-.start-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;animation:clouds 35s ease-in-out infinite alternate}
-.start-overlay{position:absolute;inset:0;display:grid;place-items:center;padding:20px;z-index:2}
+.start-poster{position:relative;width:100vw;height:100dvh;overflow:hidden}
+.start-art{position:absolute;top:0;left:50%;height:100dvh;width:auto;object-fit:cover;object-position:center center;display:block;animation:clouds 35s ease-in-out infinite alternate;transform:translateX(-50%)}
+.start-overlay{display:none}
 @keyframes clouds{0%{transform:translate(0,0)}100%{transform:translate(8px,-5px)}}
 .treasure-map{position:relative;width:min(92vw,440px);height:70vh;max-height:720px;display:grid;place-items:center}
 .treasure-map-img{width:100%;height:100%;object-fit:contain;display:block;pointer-events:none;filter:drop-shadow(0 25px 40px rgba(0,0,0,.25));animation:map-fade 1s ease-out both}
